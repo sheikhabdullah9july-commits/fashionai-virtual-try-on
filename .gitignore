@@ -1,0 +1,44 @@
+# Python environments and caches
+venv/
+.venv/
+ootd_env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+# Datasets, downloaded models, and rebuilt indexes
+Kaggle_datasets/
+catalog_vectors.npy
+catalog_metadata.json
+OOTDiffusion/checkpoints/*
+!OOTDiffusion/checkpoints/README.txt
+*.ckpt
+*.safetensors
+*.pth
+*.pt
+*.onnx
+# Runtime images and personal uploads
+static/uploads/
+static/crops/
+static/model/*
+static/Products/
+OOTDiffusion/run/images_output/
+OOTDiffusion/.git/
+# Local diagnostics and publishing helpers
+*.log
+pc_info.txt
+pc_ram.txt
+pip_torch_info.txt
+.local-tools/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

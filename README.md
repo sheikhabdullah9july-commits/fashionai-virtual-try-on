@@ -44,8 +44,8 @@ The Flask integration currently uses `ootd_env/Scripts/python.exe` and forces `-
 ### 1. Clone and install the web application
 
 ```powershell
-git clone https://github.com/sheikhabdullah9july-commits/virtual-try-on-system.git
-cd virtual-try-on-system
+git clone https://github.com/sheikhabdullah9july-commits/fashionai-virtual-try-on.git
+cd fashionai-virtual-try-on
 py -3.13 -m venv venv
 .\venv\Scripts\python.exe -m pip install --upgrade pip
 .\venv\Scripts\python.exe -m pip install torch==2.11.0+cpu torchvision==0.26.0+cpu --index-url https://download.pytorch.org/whl/cpu
